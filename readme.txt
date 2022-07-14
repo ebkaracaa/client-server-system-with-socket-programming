@@ -1,2 +1,4 @@
-compile the server.c and client.c as gcc server.c -o Server and gcc client.c -o Client
-./Server 9768(port number defined by you) in one terminal and ./Client IP 9768  in other terminal.
+Simple chat program with client and service.
+compile the server: gcc server.c -o Server
+compile the client : gcc client.c -o Client
+./Server <port number that you defined> in one terminal and ./Client IP 9768  in other terminal
